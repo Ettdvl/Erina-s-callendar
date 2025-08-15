@@ -1,0 +1,70 @@
+body { font-family:sans-serif; margin:0; background:#fff0f5; color:#333; }
+h1 { text-align:center; color:#ff7096; margin:20px 0; }
+
+.tabs { display:flex; justify-content:center; margin-top:20px; }
+.tab-btn { background:#ffb6d3; border:none; padding:10px 20px; margin:0 5px; border-radius:20px; cursor:pointer; font-weight:600; }
+.tab-btn.active { background:#ff7096; color:white; }
+
+.tab-content { display:none; padding:20px; }
+
+.month { margin-bottom:40px; }
+.month h2 { text-align:center; color:#ff7096; margin-bottom:10px; }
+
+.calendar-grid { display:grid; grid-template-columns:repeat(7,1fr); grid-auto-rows:80px; gap:5px; max-width:700px; margin:0 auto; }
+.day { background:#ffe0f0; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:1em; color:#ff7096; cursor:pointer; transition:0.2s; }
+.day:hover { background:#ffb6d3; color:white; transform:scale(1.05); }
+.day { 
+  background:#ffe0f0; 
+  border-radius:15px; 
+  display:flex; 
+  align-items:center; 
+  justify-content:center; 
+  font-size:1em; 
+  color:#ff7096; 
+  cursor:pointer; 
+  transition:0.2s; 
+  position:relative; 
+}
+
+.day:hover { 
+  transform:scale(1.05); 
+  background:#ffb6d3; 
+  color:white; 
+}
+
+/* Popup message */
+.popup {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:white;
+  border:2px solid #ff7096;
+  border-radius:15px;
+  padding:15px;
+  z-index:10;
+  display:none;
+  width:150px;
+  text-align:center;
+  box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.popup.show { display:block; animation:fadeIn 0.3s ease; }
+
+@keyframes fadeIn { from {opacity:0;} to {opacity:1;} }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 500px; /* limite la largeur pour téléphones */
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.carte {
+  width: 100%; /* carte pleine largeur sur mobile */
+  height: auto;
+}
