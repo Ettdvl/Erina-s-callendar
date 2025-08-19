@@ -13,7 +13,7 @@ const dailyGifts = {
   "2025-08-16": { text: "à modifier", image: "" },
   "2025-08-17": { text: "à modifier", image: "" },
   "2025-08-18": { text: "à modifier", image: "" },
-  "2025-08-19": { text: "à modifier", image: "" },
+  "2025-08-19": { text: "Je t'aime mon amour, je pense fort à toi. J'ai hâte que tu rentres de Mimizan, et qu'on soit tous les deux réunis. Tu me manques énormément mon ange ❤", image: "photo3.jpg" },
   "2025-08-20": { text: "à modifier", image: "" },
   "2025-08-21": { text: "à modifier", image: "" },
   "2025-08-22": { text: "à modifier", image: "" },
@@ -494,4 +494,5 @@ tabs.forEach(tab => {
     document.getElementById(tab.dataset.target).style.display = 'block';
   });
 });
+
 
