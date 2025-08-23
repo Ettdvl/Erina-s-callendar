@@ -20,7 +20,7 @@ const dailyGifts = {
   "2025-08-23": { text: "Jour -5.. ON Y EST BIENTÔT !! (Normalement 🙄). Bon, en tous les cas je te passerai au moins un appel, ça c'est clair ! Je t'aime mon ange ❤️", image: "" },
   "2025-08-24": { text: "Coucou mon amour,j'espère que tu as bien dormi. Je t'aime tellement mon amour, j'ai énormément hâte de te revoir, tu me manques beaucoup ❤️", image: "" },
   "2025-08-25": { text: "Mon amour je t'aimeeeeed. J'espère que tu vas bien et que tout se passe pour le mieux. Je voulais te dire à quel point je t'aime ❤️. j'espère qu'on se verra bientôt, parce que tu me manques terriblement ❤️", image: "" },
-  "2025-08-26": { text: "à modifier", image: "" },
+  "2025-08-26": { text: "Je t'aime mon amour ! j'espère que tu as bien dormi cette nuit avec Magret et toute la team ! En tout cas de mon côté je pense fort à toi et à tout ce qu'on pourra faire ensemble durant notre vie future. Je te souhaite une agréable journée mon amour, et je t'offre tout l'amour du monde, parce que tu le mérites, et qu'il serait temps que quelqu'un se décide à te le donner 🤭❤️", image: "" },
   "2025-08-27": { text: "à modifier", image: "" },
   "2025-08-28": { text: "à modifier", image: "" },
   "2025-08-29": { text: "à modifier", image: "" },
